@@ -52,8 +52,8 @@ public class ProductService {
 	{  
 		ResponseTemplateVO vo= new ResponseTemplateVO();
 		Product product= productRepo.findByproductId(productId);
-		Discount discount=restTemplate.getForObject("http://DiscountService/getDiscount/"+product.getDiscountId(),Discount.class);
-		ProductCategory productCategory=restTemplate.getForObject("http://ProductCategoryService/getproductCategory/"+product.getProductcategoryId(),ProductCategory.class);
+		Discount discount=restTemplate.getForObject("http://DiscountService/Discount/getDiscount/"+product.getDiscountId(),Discount.class);
+		ProductCategory productCategory=restTemplate.getForObject("http://ProductCategoryService/ProductCategory/getproductCategory/"+product.getProductcategoryId(),ProductCategory.class);
 		vo.setProduct(product);
 		vo.setDiscount(discount);
 		vo.setProductCategory(productCategory);
