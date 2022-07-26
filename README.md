@@ -3,7 +3,14 @@
 The Project is basically a Ecommerce website for home decors.</br>
 This project consists of two parts the front-end and the back-end.</br>
 The back-end is build using spring boot microservice.</br>
-To run the spring boot microservice first of all we have to start the sts ide and move to our desired folder.</br>
-Then we have to start by running the service registry file.</br>
-After that we have to run the albums in this order: user> discount> product category> product> cart> wishlist> sales.</br>
-At last we have to run the api gateway file
+Start the spring boot application at first in sts </br>
+Then start the server for angular project in visual studio code</br>
+Then import the mysql file into mysql workbench</br>
+The user credentials for admin and user is-</br>
+ADMIN </br>
+username : ritik@123 </br>
+password: ritik @123 </br>
+
+USER</br>
+Username: shyam@123</br>
+Password: shyam@123</br>
